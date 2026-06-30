@@ -25,7 +25,6 @@ Seguridad de Redes · Prof. Jonathan Esteban Rondón Corniel
 6. [Verificación del Túnel](#6-verificación-del-túnel)
 7. [Capturas de Pantalla](#7-capturas-de-pantalla)
 8. [Video Demostrativo](#8-video-demostrativo)
-9. [Referencias](#9-referencias)
 
 ---
 
@@ -379,36 +378,13 @@ Las evidencias se almacenan en la carpeta [`evidencias/`](evidencias/):
 | 3 | [Config R1 – Fase 2](evidencias/03_config_r1_fase2.png) | Consola R1: transform set, ACL de tráfico interesante y Crypto Map. |
 | 4 | [Config R2 – Completa](evidencias/04_config_r2_completa.png) | Consola R2: configuración equivalente con ACL espejo y peer apuntando a R1. |
 | 5 | [ISAKMP SA – QM_IDLE](evidencias/05_isakmp_sa_qmidle.png) | Salida `show crypto isakmp sa` → estado `QM_IDLE` en R1. |
-| 6 | [IPSec SA – Contadores](evidencias/06_ipsec_sa_contadores.png) | Salida `show crypto ipsec sa` → contadores `encaps/decaps` con tráfico activo. |
-| 7 | [Ping exitoso](evidencias/07_ping_exitoso.png) | Ping exitoso de PC1 (`202.50.73.130`) a PC2 (`202.50.73.2`) con túnel activo. |
+| 6 | [Ping exitoso](evidencias/07_ping_exitoso.png) | Ping exitoso de PC1 (`202.50.73.130`) a PC2 (`202.50.73.2`) con túnel activo. |
 
 ---
 
 ## 8. Video Demostrativo
 
 🎥 **[Ver en YouTube — enlace pendiente](#)**
-
-**Duración estimada:** < 8 minutos
-
-Contenido del video:
-- ✅ Topología en PNetLab con nombre completo **Arlene Fernández Herrera** y matrícula **2025-0730** visibles.
-- ✅ Reloj del sistema visible con fecha y hora actuales.
-- ✅ Cara y voz de la autora durante toda la demostración.
-- ✅ Aplicación de los scripts de configuración en R1 y R2.
-- ✅ `show crypto isakmp sa` mostrando `QM_IDLE`.
-- ✅ `show crypto ipsec sa` con contadores de paquetes incrementando.
-- ✅ Ping exitoso entre PC1 y PC2 a través del túnel cifrado.
-- ✅ Demostración mediante GUI de PNetLab.
-
----
-
-## 9. Referencias
-
-- Kent, S. & Seo, K. (2005). *RFC 4301 — Security Architecture for the Internet Protocol*. IETF.
-- Harkins, D. & Carrel, D. (1998). *RFC 2409 — The Internet Key Exchange (IKEv1)*. IETF.
-- Cisco Systems. (2024). *Cisco IOS Security Configuration Guide — IPSec VPN*.
-- Cisco Systems. (2024). *Cisco IOS Security Command Reference — crypto isakmp / crypto map*.
-
 ---
 
 <div align="center">
