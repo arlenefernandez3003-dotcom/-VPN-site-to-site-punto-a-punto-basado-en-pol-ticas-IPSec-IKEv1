@@ -370,7 +370,7 @@ Success rate is 100 percent (10/10)
 
 ## 7. Capturas de Pantalla
 
-Las evidencias se almacenan en la carpeta [`screenshots/`](./screenshots/):
+Las evidencias se almacenan en la carpeta [`evidencias/`](evidencias/):
 
 | # | Captura | Descripción |
 |---|---|---|
