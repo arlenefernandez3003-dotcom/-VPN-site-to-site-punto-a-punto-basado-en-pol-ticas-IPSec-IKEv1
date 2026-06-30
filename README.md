@@ -384,7 +384,7 @@ Las evidencias se almacenan en la carpeta [`evidencias/`](evidencias/):
 
 ## 8. Video Demostrativo
 
-🎥 **[Ver en YouTube — enlace pendiente](#)**
+🎥 **[Ver en YouTube — enlace pendiente](https://youtu.be/J6bXly8wTYo)**
 ---
 
 <div align="center">
