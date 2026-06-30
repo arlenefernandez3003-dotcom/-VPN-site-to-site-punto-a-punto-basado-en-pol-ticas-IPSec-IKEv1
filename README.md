@@ -375,13 +375,12 @@ Las evidencias se almacenan en la carpeta [`evidencias/`](evidencias/):
 | # | Captura | Descripción |
 |---|---|---|
 | 1 | [Topología general](evidencias/01_topologia.png) | Topología en PNetLab con nombre y matrícula visibles, todos los nodos encendidos. |
-| 2 | [Fecha y hora del sistema](evidencias/02_fecha_hora.png) | Reloj del sistema operativo visible mostrando fecha y hora actuales. |
-| 3 | [Config R1 – ISAKMP](evidencias/03_config_r1_isakmp.png) | Consola R1: `crypto isakmp policy 10` y `crypto isakmp key` configurados. |
-| 4 | [Config R1 – Fase 2](evidencias/04_config_r1_fase2.png) | Consola R1: transform set, ACL de tráfico interesante y Crypto Map. |
-| 5 | [Config R2 – Completa](evidencias/05_config_r2_completa.png) | Consola R2: configuración equivalente con ACL espejo y peer apuntando a R1. |
-| 6 | [ISAKMP SA – QM_IDLE](evidencias/06_isakmp_sa_qmidle.png) | Salida `show crypto isakmp sa` → estado `QM_IDLE` en R1. |
-| 7 | [IPSec SA – Contadores](evidencias/07_ipsec_sa_contadores.png) | Salida `show crypto ipsec sa` → contadores `encaps/decaps` con tráfico activo. |
-| 8 | [Ping exitoso](evidencias/08_ping_exitoso.png) | Ping exitoso de PC1 (`202.50.73.130`) a PC2 (`202.50.73.2`) con túnel activo. |
+| 2 | [Config R1 – ISAKMP](evidencias/03_config_r1_isakmp.png) | Consola R1: `crypto isakmp policy 10` y `crypto isakmp key` configurados. |
+| 3 | [Config R1 – Fase 2](evidencias/04_config_r1_fase2.png) | Consola R1: transform set, ACL de tráfico interesante y Crypto Map. |
+| 4 | [Config R2 – Completa](evidencias/05_config_r2_completa.png) | Consola R2: configuración equivalente con ACL espejo y peer apuntando a R1. |
+| 5 | [ISAKMP SA – QM_IDLE](evidencias/06_isakmp_sa_qmidle.png) | Salida `show crypto isakmp sa` → estado `QM_IDLE` en R1. |
+| 6 | [IPSec SA – Contadores](evidencias/07_ipsec_sa_contadores.png) | Salida `show crypto ipsec sa` → contadores `encaps/decaps` con tráfico activo. |
+| 7 | [Ping exitoso](evidencias/08_ping_exitoso.png) | Ping exitoso de PC1 (`202.50.73.130`) a PC2 (`202.50.73.2`) con túnel activo. |
 
 ---
 
